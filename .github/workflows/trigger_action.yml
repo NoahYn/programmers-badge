@@ -28,11 +28,11 @@ jobs:
       - run: npm run build
       - run: |
           touch .env
-          echo GH_PAT=${{ secrets.GH_PAT }} >> .env
-          echo GH_REPOSITORY=${{ secrets.GH_REPOSITORY }} >> .env
-          echo PROGRAMMERS_ID=${{ secrets.PROGRAMMERS_ID }} >> .env
-          echo PROGRAMMERS_PW=${{ secrets.PROGRAMMERS_PW }} >> .env
-
+          echo "GH_PAT=${{ secrets.GH_PAT }}" >> .env
+          echo "GH_REPOSITORY=${{ secrets.GH_REPOSITORY }}" >> .env
+          echo "PROGRAMMERS_ID=${{ secrets.PROGRAMMERS_ID }}" >> .env
+          echo "PROGRAMMERS_PW=${{ secrets.PROGRAMMERS_PW }}" >> .env
+    
       - name: Start application
         run: |
           npm run start &
