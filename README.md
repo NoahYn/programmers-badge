@@ -10,6 +10,12 @@
   
 Github 프로필에서 프로그래머스 프로필 뱃지를 이쁘게 보여주는 프로젝트입니다. 
   
+<!-- 일반 배지 -->
+![Programmers Badge](https://raw.githubusercontent.com/NoahYn/programmers-badge/master/static/result.svg)
+
+<!-- 미니 배지 -->
+![Programmers Badge Mini](https://raw.githubusercontent.com/NoahYn/programmers-badge/master/static/result_mini.svg)
+
 
 <br/>
 <br/>
