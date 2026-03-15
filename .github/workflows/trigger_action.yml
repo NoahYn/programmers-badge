@@ -36,7 +36,7 @@ jobs:
       - name: Start application
         run: |
           npm run start &
-          sleep 10
+          sleep 30
 
       - name: Terminate workflow
-        run: echo "Workflow finished after 10 seconds!"
+        run: echo "Workflow finished after 30 seconds!"
